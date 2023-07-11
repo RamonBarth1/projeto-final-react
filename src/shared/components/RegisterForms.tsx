@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import User from '../types/User';
 
-
 const Register: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -65,8 +64,8 @@ const Register: React.FC = () => {
         Sair
       </Button>
       <Typography variant="h3" textAlign={'center'}>
-          Criar a conta
-        </Typography>
+        Criar a conta
+      </Typography>
       <br />
       <br />
       <form onSubmit={handleSignUp}>
